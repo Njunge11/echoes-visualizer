@@ -1,0 +1,19 @@
+{
+  "name": "echoes-visualizer",
+  "version": "1.0.0",
+  "description": "A script that syncs audio to a reactive waveform for my Echoes mix series visualizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
